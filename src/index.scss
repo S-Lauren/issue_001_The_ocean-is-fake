@@ -1,0 +1,11 @@
+@import "./tokens.scss";
+
+:root {
+  font-family: $font-base;
+  color: black;
+}
+
+h1 {
+  font-size: $font-size-lg;
+  margin: 0px;
+}
