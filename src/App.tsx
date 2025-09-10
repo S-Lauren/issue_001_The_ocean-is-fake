@@ -1,7 +1,10 @@
+import { LandingHeader } from "./components/Landing/Header/Header";
+import "./index.scss";
+
 function App() {
   return (
     <>
-      <h1>Sarah Lauren</h1>
+      <LandingHeader />
     </>
   );
 }

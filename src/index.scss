@@ -1,11 +1,21 @@
-@import "./tokens.scss";
+@use "./tokens" as *;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 :root {
   font-family: $font-base;
+
+  --font-size-small: #{$font-size-small};
+  --color-primary: #{$color-primary};
+  --color-secondary: #{$color-secondary};
+
   color: black;
 }
 
 h1 {
-  font-size: $font-size-lg;
+  font-size: $font-size-extra-lg;
   margin: 0px;
 }
